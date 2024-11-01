@@ -1,0 +1,375 @@
+/*[fmt]0A40-1A0B-3*/
+/**
+* Frontend Styles For The Totally Booked Plugin.
+ */
+.tb_clear{
+    clear: both;
+}
+
+.tb_book .post_thumbnail{
+    float: left;
+    width: 150px;
+    margin: 0 20px 20px 0;
+}
+
+.tb_book .post_thumbnail img{
+    margin-top: 0;
+}
+
+.tb_archive_content_wrapper{
+    float: left;
+}
+
+.tb_archive_content_wrapper .entry-title{
+    clear: none;
+}
+
+.tb_archive_content_wrapper .entry-content{
+    padding-top: 10px;
+}
+
+.tb_archive_content_wrapper p{
+    margin-bottom: 0 !important;
+}
+
+.tb-gallery-item{
+    float: left;
+    width: 33%;
+    padding-bottom: 10px !important;
+}
+
+.tb-gallery-item .entry-title{
+    text-align: center;
+}
+
+.tb-gallery-item .post_thumbnail{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+}
+
+.tb-gallery-item .post_thumbnail img{
+    margin: 0 auto;
+    max-width: 65%;
+    height: auto;
+    display: block;
+}
+
+.tb-gallery-item .tb-entry-actions{
+    text-align: center;
+}
+
+.tb-gallery-item .tb-entry-actions .tb_buynow_wrapper{
+    float: none;
+}
+
+.tb-gallery-item .tb-entry-actions a.tb_button{
+    clear: both;
+    float: none;
+    margin: 5px auto;
+    font-size: 0.9em;
+    padding: 4px 8px;
+}
+
+.tb-gallery-item .post_thumbnail img{
+    float: none;
+}
+
+.tb-gallery-item .tb_archive_content_wrapper{
+    padding: 0;
+    clear: both;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tb_buynow_wrapper{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tb_button{
+    display: inline-block;
+    padding: 8px 12px;
+    background: #000 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF !important;
+    /*+border-radius:5px;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    /*+box-shadow:0 0 3px #000;*/
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    -o-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 3px #000;
+}
+
+.tb_buynow_button{
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.tb_buynow_popup{
+    /*display: none;*/
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #FFFBE5;
+    /*+border-radius:5px;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #FFE58F;
+    padding: 3%;
+}
+
+.tb_book{
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.tb_book .book_cover{
+    float: left;
+    width: 25%;
+    padding: 2%;
+    background: #F6F6F6;
+    /*+border-radius:5px;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.book_cover img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    padding: 0;
+}
+
+.tb_book .book_content{
+    float: right;
+    width: 68%;
+}
+
+.tb_coming_soon{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+ul.tb_reader_links{
+    margin: 10px 0;
+    float: left;
+    width: 100%;
+}
+
+ul.tb_reader_links li{
+    /*[disabled]float:left;*/
+    /*[disabled]width:50%;*/
+    text-align: left;
+    line-height: 20px;
+    margin: 0 0 12px;
+    list-style: none;
+}
+
+.tb_buynow_content{
+    display: none;
+}
+
+#tb_popup_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #CCC;
+    /*+opacity:60%;*/
+    filter: alpha(opacity=60);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    position: fixed;
+    display: none;
+    z-index: 1999;
+}
+
+#tb_popup_wrapper{
+    position: absolute;
+    width: 95%;
+    z-index: 10000;
+    max-width: 650px;
+    margin: 0 auto;
+    background: #FFF;
+    /*+border-radius:8px;*/
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+    /*+box-shadow:0 0 5px #CCC;*/
+    -moz-box-shadow: 0 0 5px #CCC;
+    -webkit-box-shadow: 0 0 5px #CCC;
+    -o-box-shadow: 0 0 5px #CCC;
+    box-shadow: 0 0 5px #CCC;
+    display: none;
+}
+
+#tb_popup_wrapper .close_buynow_popup{
+    position: absolute;
+    top: -14px;
+    right: -13px;
+    background: url( ../images/close_icon.png ) no-repeat 50% 50%;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+#tb_popup_wrapper .section_title{
+    background: #CEBEA4;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #000;
+    font-size: 18px;
+}
+
+#tb_popup_wrapper .retailer_links{
+    float: left;
+    width: 70%;
+    padding: 30px 0;
+}
+
+#tb_popup_wrapper .retailer_link{
+    float: left;
+    text-align: center;
+    width: 40%;
+    margin: 0 5%;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#tb_popup_wrapper .retailer_link a{
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+#tb_popup_wrapper .retailer_link img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#tb_popup_wrapper .book_cover{
+    float: right;
+    width: 25%;
+    margin-right: 4%;
+}
+
+.tb-entry-meta{
+    clear: both;
+    background: #F6F6F6;
+    padding: 5px 10px;
+    /*+border-radius:5px;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    /*+box-shadow:0 0 3px #CCC;*/
+    -moz-box-shadow: 0 0 3px #CCC;
+    -webkit-box-shadow: 0 0 3px #CCC;
+    -o-box-shadow: 0 0 3px #CCC;
+    box-shadow: 0 0 3px #CCC;
+    border: 1px solid #B5B5B5;
+    margin-bottom: 20px;
+}
+
+.tb-entry-meta ul{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.tb-entry-meta li{
+    padding: 3px 0;
+    list-style: none;
+    margin: 0 !important;
+    line-height: 1.5em;
+}
+
+.tb-entry-meta li .title{
+    display: inline-block;
+    width: 60px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.tb-entry-actions a.tb_button{
+    margin: 10px 20px 10px 0;
+}
+
+.tb-entry-actions .tb_buynow_wrapper, .widget_tb_book_widget .tb_buynow_wrapper{
+    float: left;
+}
+
+.widget_tb_book_widget .book_cover{
+    margin-bottom: 20px;
+}
+
+.widget_tb_book_widget .book_cover img{
+    margin: 0 auto;
+    max-width: 60%;
+    height: auto;
+}
+
+.widget_tb_book_widget .book_title{
+    margin-bottom: 10px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 600px){
+    .tb_book .book_cover{
+        float: none;
+        width: 100%;
+        padding: 2%;
+        background: #F6F6F6;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+    }
+
+    .tb_book .book_content{
+        float: none;
+        width: 100%;
+    }
+
+    .tb_book .wp-post-image{
+        float: none;
+        display: block;
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+
+    .tb_book .post_thumbnail{
+        float: none;
+        width: 100%;
+    }
+
+    .tb-gallery-item{
+        float: none;
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+}
+

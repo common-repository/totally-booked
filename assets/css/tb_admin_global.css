@@ -1,0 +1,7 @@
+/*
+Global Admin Styles for the Totally Booked Plugin.
+*/
+.menu-icon-tb_book .wp-menu-image img{
+    position:relative;
+    top:-3px;
+}

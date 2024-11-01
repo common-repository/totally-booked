@@ -1,0 +1,906 @@
+# Copyright (C) 2014 Totally Booked
+# This file is distributed under the same license as the Totally Booked package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Totally Booked 0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/totally-booked\n"
+"POT-Creation-Date: 2014-04-16 12:17:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-04-16 18:25+0100\n"
+"Last-Translator: Thomas Bissinger <thomas.bissinger@exzellentleben.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+#: lib/admin.php:45
+msgid "Totally Booked Settings"
+msgstr "Totally Booked Einstellungen"
+
+#: lib/admin.php:45
+msgid "Update Settings"
+msgstr "Update der Einstellungen"
+
+#: lib/admin.php:69
+msgid "Post Type / Taxonomy Archive Titles"
+msgstr "Beitrag Typ / Taxonomy Archiv Titel"
+
+#: lib/admin.php:70
+msgid "Rewrite Options"
+msgstr "Optionen neu schreiben"
+
+#: lib/admin.php:71
+msgid "CSS And Javascript Options"
+msgstr "CSS und Javascript Optionen"
+
+#: lib/admin.php:72
+msgid "Archive Display Options"
+msgstr "Archiv Display Optionen"
+
+#: lib/admin.php:73
+msgid "Theme Compatibility Options"
+msgstr "Theme Kompatibilität Optionen"
+
+#: lib/admin.php:100
+msgid ""
+"Enter the title for the author archive, Leave this blank to default to the "
+"authors name"
+msgstr ""
+"Tragen Sie den Titel für das Autorenarchiv ein. Wenn Sie es leer lassen "
+"wird  als Standard der Autorenname angezeigt."
+
+#: lib/admin.php:102
+msgid "Author Archive Title"
+msgstr "Titel des Autorenarchivs"
+
+#: lib/admin.php:106
+msgid ""
+"Enter the title for the genre archive, Leave this blank to default to the "
+"genre name"
+msgstr ""
+"Tragen Sie den Titel für das Genrearchiv ein. Wenn Sie es leer lassen wird  "
+"als Standard der Genrename angezeigt."
+
+#: lib/admin.php:108
+msgid "Genre Archive Title"
+msgstr "Titel des Genrearchivs"
+
+#: lib/admin.php:112
+msgid ""
+"Enter the title for the series archive, Leave this blank to default series "
+"name"
+msgstr ""
+"Tragen Sie den Titel für das Serienarchiv ein. Wenn Sie es leer lassen wird  "
+"als Standard der Name der Serie angezeigt."
+
+#: lib/admin.php:114
+msgid "Series Archive Title"
+msgstr "Titel des Serienarchivs"
+
+#: lib/admin.php:118
+msgid ""
+"Enter the title for the book archive, Leave this blank to default to \"Book "
+"Archives\""
+msgstr ""
+"Tragen Sie den Titel für das Bucharchiv ein. Wenn Sie es leer lassen wird  "
+"als Standard  \"Book Archives\" angezeigt."
+
+#: lib/admin.php:120
+msgid "Books Archive Title"
+msgstr "Titel des Bucharchivs"
+
+#: lib/admin.php:127
+msgid "Slug for the books archive page"
+msgstr "Slug für die Bucharchivseite"
+
+#: lib/admin.php:129
+msgid "Books Archive Slug"
+msgstr "Bucharchiv-Slug"
+
+#: lib/admin.php:133
+msgid "Slug for the author archives"
+msgstr "Slug für das Autorenarchiv"
+
+#: lib/admin.php:135
+msgid "Author Archive Slug"
+msgstr "Autorenarchiv-Slug"
+
+#: lib/admin.php:139
+msgid "Slug for the genre archive"
+msgstr "Slug für das Genrearchiv"
+
+#: lib/admin.php:141
+msgid "Genre Archive Slug"
+msgstr "Genrearchiv-Slug"
+
+#: lib/admin.php:145
+msgid "Slug for the series archives"
+msgstr "Slug für das Serienarchiv"
+
+#: lib/admin.php:147
+msgid "Series Archive Slug"
+msgstr "Serienarchiv-Slug"
+
+#: lib/admin.php:154
+msgid ""
+"Uncheck this option to disable javascript output (Not recommended unless you "
+"know what you are doing)"
+msgstr ""
+"Entfernen Sie den Haken bei dieser Option damit Javascript Output nicht "
+"dargestellt wird. (Nicht empfohlen, es sei denn Sie wissen, was Sie tun.)"
+
+#: lib/admin.php:156
+msgid "Output Javascript"
+msgstr "Output Javascript"
+
+#: lib/admin.php:160
+msgid ""
+"Uncheck this option to disable CSS output (Not recommended unless you know "
+"what you are doing)"
+msgstr ""
+"Entfernen Sie den Haken bei dieser Option damit CSS Output nicht dargestellt "
+"wird. (Nicht empfohlen, es sei denn Sie wissen, was Sie tun.)"
+
+#: lib/admin.php:162
+msgid "Output CSS"
+msgstr "Output CSS"
+
+#: lib/admin.php:169
+msgid ""
+"Please enter the maximum number of posts to display per page on the Totally "
+"Booked archive pages. Leave this blank to revert to the WordPress default."
+msgstr ""
+"Bitte tragen Sie maximale Zahl der per Seite auf den Totally Booked "
+"Archivseiten dargestellten Beitrage ein. Lassen Sie dies frei um auf die "
+"WordPress Standardwerte zuzugreifen."
+
+#: lib/admin.php:171
+msgid "Archive Maximum Posts"
+msgstr "Maximale Archivbeiträge"
+
+#: lib/admin.php:178
+msgid ""
+"Enter the HTML snippet to output before the start of the Totally Booked "
+"content."
+msgstr ""
+"Enter the HTML snippet to output before the start of the Totally Booked "
+"content."
+
+#: lib/admin.php:180
+msgid "Wrapper Start HTML"
+msgstr "Wrapper Start HTML"
+
+#: lib/admin.php:184
+msgid "Enter the HTML snippet to output after the Totally Booked content."
+msgstr "Enter the HTML snippet to output after the Totally Booked content."
+
+#: lib/admin.php:186
+msgid "Wrapper End HTML"
+msgstr "Wrapper End HTML"
+
+#: lib/admin.php:307
+msgid "series"
+msgstr "Serie"
+
+#: lib/admin.php:312
+msgid "genre"
+msgstr "Genre"
+
+#: lib/admin.php:324
+msgid ""
+"To display a gallery of the books in this %s, Please enter the following "
+"shortcode in any post or page."
+msgstr ""
+"Um eine Gallerie der Bücher in dieser %s darzustellen, tragen Sie bitte den "
+"folgenden Shortcode auf der Seite oder in dem Beitrag ein."
+
+#: lib/admin.php:356
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: lib/admin.php:388
+msgid ""
+"\n"
+"            <strong>These options are meant for the power user and should be "
+"used with caution. Adjusting the settings below will modify the core URL for "
+"the sections generated by the plugin.</strong><br /><br />\n"
+"\n"
+"            This rewrite option is helpful for users who, for example, have "
+"an existing books page and don't want that page overwritten by the plugin.  "
+"In this case, you could enter something like \"mybooks\" in the \"Books "
+"Archive Slug\" field below. This will ensure that any books you add through "
+"TotallyBooked will only appear under the URL \"mybooks\", while any content "
+"you have on a “books” page, will not be affected.<br /><br />\n"
+"\n"
+"            Your primary books page produced by TotallyBooked will then be "
+"located at: %s instead of %s, and all the individual books pages created by "
+"TotallyBooked will also appear under that “mybooks” heading.<br /><br />\n"
+"\n"
+"            We strongly recommend that you do NOT modify these values more "
+"than once. Any modification once you’ve set them up the first time will "
+"change the URLs for all your books pages.  This will break your original "
+"links, and generate errors in the search engines.<br /><br />\n"
+"\n"
+"            If you must change these values, be sure to use a redirection "
+"plugin, to 301 redirect the old book URLs to the new ones."
+msgstr ""
+"\n"
+"            <strong>Diese Optionen sind für den Poweruser und sollten mit "
+"Vorsicht genutzt werden. Die unten stehenden Einstellungen anzupassen "
+"modifiziert der Kern URL für die Abschnitte, die durch das Plugin generiert "
+"werden.</strong><br /><br />\n"
+"\n"
+"            Diese Option \"neu schreiben\" ist hilfreich für User, die zum "
+"Beispiel eine bestehende Bücherseite haben und nicht möchten, dass diese "
+"durch das Plugin überschrieben wird. In diesem Fall könnten Sie etwas wie  "
+"\"mybooks\" in das \"Books Archive Slug\" Feld unten eintragen. Dies stellt "
+"sicher, dass die durch Totally Booked hinzugefügten Bücher nur unter der "
+"URL  \"mybooks\" erscheinen, während Inhalte unter ihrer  “books” Seite, "
+"nicht beeinflusst werden.<br /><br />\n"
+"\n"
+"           Ihre primäre Bücherseite von TotallyBooked steht dann unter: %s "
+"instead of %s, und alle individuellen Bücher, die über TotallyBooked "
+"erstellt worden sind, erscheinen ebenso unter “mybooks”.<br /><br />\n"
+"\n"
+"            Wir empfehlen eindringlich diese Werte nicht mehr als einmal zu "
+"verändern. Nach der Ersterstellung wird jede Änderung die URLs für all Ihre "
+"Bücher verändern. Dies wird die ursprünglichen Links brechen und Fehler in "
+"den Suchmaschinen erzeugen.<br /><br />\n"
+"\n"
+"            Wenn Sie diese Werte ändern müssen, nutzen Sie ein "
+"Umleitungsplugin (Redirection Plugin), um per 301 redirect die alten Buch "
+"URLs zu den neuen umzuleiten."
+
+#: lib/admin.php:408
+msgid ""
+"We have coded the TotallyBooked plugin to be as compatible as possible with "
+"most WordPress themes.  However, because there are thousands of themes, and "
+"every theme is coded differently, our system may run into conflicts with "
+"theme code once in awhile.<br /><br />\n"
+"\n"
+"            The extra compatibility options on this page will help you "
+"integrate TotallyBooked with ANY theme, (even the one created by that web "
+"guy who runs his office from the local bar and doesn’t respond to any of "
+"your requests for updates!)<br /><br />\n"
+"\n"
+"            The two text boxes below represent the HTML before and after the "
+"output generated by TotallyBooked. Using these boxes, you can tell "
+"TotallyBooked where to display in your theme’s content area.<br /><br />\n"
+"\n"
+"            The code for these content areas is different for each theme.  "
+"So, for example, if you are using the default WordPress theme (Twenty "
+"Thirteen) you would put this in the \"Wrapper Start HTML\" text box:\n"
+"            <pre>\n"
+"    &lt;div id=\"primary\" class=\"site-content\"&gt;\n"
+"        &lt;div id=\"content\" role=\"main\" class=\"entry-content "
+"twentythirteen\"&gt;\n"
+"            </pre>\n"
+"\n"
+"            and this in the \"Wrapper End HTML\" box:\n"
+"            <pre>\n"
+"        &lt;/div&gt;\n"
+"    &lt;/div&gt;\n"
+"            </pre>\n"
+"\n"
+"            Once you have the correct code in place, click the Save Options "
+"button. (Or, if you’re comfortable modifying your site code directly, you "
+"can skip this step and follow our <a href=\"http://wordpress.org/plugins/"
+"totally-booked/other_notes/\">templating documentation</a> instead.)<br /"
+"><br />\n"
+"\n"
+"            <strong>If you are not comfortable dealing with this level of "
+"code, please ask someone who is qualified to help. Making a mistake here "
+"will cause the pages generated by TotallyBooked to display in unpredictable "
+"ways.</strong>\n"
+"            "
+msgstr ""
+"We have coded the TotallyBooked plugin to be as compatible as possible with "
+"most WordPress themes.  However, because there are thousands of themes, and "
+"every theme is coded differently, our system may run into conflicts with "
+"theme code once in awhile.<br /><br />\n"
+"\n"
+"            The extra compatibility options on this page will help you "
+"integrate TotallyBooked with ANY theme, (even the one created by that web "
+"guy who runs his office from the local bar and doesn’t respond to any of "
+"your requests for updates!)<br /><br />\n"
+"\n"
+"            The two text boxes below represent the HTML before and after the "
+"output generated by TotallyBooked. Using these boxes, you can tell "
+"TotallyBooked where to display in your theme’s content area.<br /><br />\n"
+"\n"
+"            The code for these content areas is different for each theme.  "
+"So, for example, if you are using the default WordPress theme (Twenty "
+"Thirteen) you would put this in the \"Wrapper Start HTML\" text box:\n"
+"            <pre>\n"
+"    &lt;div id=\"primary\" class=\"site-content\"&gt;\n"
+"        &lt;div id=\"content\" role=\"main\" class=\"entry-content "
+"twentythirteen\"&gt;\n"
+"            </pre>\n"
+"\n"
+"            and this in the \"Wrapper End HTML\" box:\n"
+"            <pre>\n"
+"        &lt;/div&gt;\n"
+"    &lt;/div&gt;\n"
+"            </pre>\n"
+"\n"
+"            Once you have the correct code in place, click the Save Options "
+"button. (Or, if you’re comfortable modifying your site code directly, you "
+"can skip this step and follow our <a href=\"http://wordpress.org/plugins/"
+"totally-booked/other_notes/\">templating documentation</a> instead.)<br /"
+"><br />\n"
+"\n"
+"            <strong>If you are not comfortable dealing with this level of "
+"code, please ask someone who is qualified to help. Making a mistake here "
+"will cause the pages generated by TotallyBooked to display in unpredictable "
+"ways.</strong>\n"
+"            "
+
+#: lib/admin_templates/meta/book_details.php:25
+msgid ""
+"Is your book part of a series? Is the book not yet released, but coming "
+"soon? Enter those details below if you'd like them to appear, leave the "
+"boxes blank if not."
+msgstr ""
+"Ist dieses Buch Teil einer Serie? Ist dieses Buch noch nicht erschienen , "
+"aber erscheint bald? Tragen Sie diese Einzelheiten hier ein, wenn Sie diese "
+"zeigen wollen. Ansonsten lassen Sie das Feld leer."
+
+#: lib/admin_templates/meta/book_details.php:29
+msgid ""
+"Enter Your Series Title And Book Number in any order (for example: "
+"Courageous Series - Book 1 or Book 1 - The Courageous Series)"
+msgstr ""
+"Tragen Sie den Reihen-/Serientitel und die Buchnummer in beliebiger "
+"Reihenfolge ein (Beispiel: Heldenserie - Buch 1, oder Buch 1 - Heldenserie)"
+
+#: lib/admin_templates/meta/book_details.php:34
+msgid ""
+"Enter Your Coming Soon Text (for example: Coming May, 2014 from XYZ "
+"Publishers or Releasing Fall 2013)"
+msgstr ""
+"Tragen sie Ihren Ankündigungstext ein (Beispiel: Erscheint May 2015 bei xy "
+"Verlag. Oder: Erscheint Herbst 2016)"
+
+#: lib/admin_templates/meta/book_details.php:39
+msgid "Enter The ISBN Number For Your Book"
+msgstr "Tragen Sie die e ISBN Nummer Ihres Buches ein"
+
+#: lib/admin_templates/meta/book_links.php:18
+msgid ""
+"Enter the online links to your book below! If you have an affiliate account, "
+"build the links in your affiliate account first, then copy and paste them "
+"into the applicable boxes on this page. To exclude a bookseller (not "
+"recommended) from the generated \"Buy This Book\" pop-up, simply leave the "
+"link box blank. If you want to link to the bookseller, but they don't yet "
+"have your book in their system, use their primary site url (eg: http://www."
+"amazon.com)"
+msgstr ""
+"Tragen Sie die online links zu Ihrem Buch unten ein! Wenn Sie ein "
+"Partnerkonto (affiliate account) haben, dann kopieren Sie diesen und fügen "
+"ihn die die entsprechenden Felder auf dieser Seite ein. Um einen Händler "
+"auszushcließen (wird nicht empfohlen) von dem erzeugten  \"Kaufen Sie dieses "
+"Buch\" \"Buy This Book\" Pop-up, lassen Sie einfach dieses Feld leer. Wenn "
+"Sie zu einem Buchhändler einen Link erstellen wollen, aber Ihr Buch noch "
+"nicht in dessen Sortiment ist, verwenden Sie deren allgemeinen Link "
+"(Beispiel: http://www.amazon.com)"
+
+#: lib/admin_templates/meta/extra_links.php:25
+msgid "You Must Have Javascript Enabled To Use This Section."
+msgstr "Sie müssen Javascript für diesen Abschnitt erlauben."
+
+#: lib/admin_templates/meta/extra_links.php:33
+msgid ""
+"Have a sample chapter or discussion guide for your readers? Enter the links "
+"below. Don't have either? Be sure to check your publisher’s website, to see "
+"if they have links available. If so, copy those links from their site, and "
+"paste them in the boxes.  Don’t have enough boxes? Click the Add Link line "
+"to create more.  Then input whatever extras you'd like (links to Pinterest "
+"boards, author interviews, etc.)."
+msgstr ""
+"Haben Sie ein Beispielkapitel oder Diskussionsleitfaden für ihre Leser? "
+"Tragen Sie diese Links unten ein. Haben Sie keines von beiden? Schauen Sie "
+"auf der Website Ihres Verlags nach, ob dieser entsprechende Links hat. Wenn "
+"ja, kopieren Sie diese Links von dessen Seite und fügen Sie in die Felder "
+"ein. Nicht genügend Felder? Klicken Sie auf \"Linkanlage hinzufügen\" um "
+"mehr zu erzeugen. Dann geben Sie ein, was auch immer an Extras Sie mögen "
+"(Links zu Pinterest Boards, Autoreninterviews, usw.)."
+
+#: lib/admin_templates/meta/extra_links.php:40
+msgid "URL"
+msgstr "URL"
+
+#: lib/admin_templates/meta/extra_links.php:41
+msgid "Link Text"
+msgstr "Linktext"
+
+#: lib/admin_templates/meta/extra_links.php:42
+msgid "Preview"
+msgstr "Vorschau"
+
+#: lib/admin_templates/meta/extra_links.php:43
+msgid "Actions"
+msgstr "Aktionen"
+
+#: lib/admin_templates/options.php:19
+msgid "General Options"
+msgstr "Allgemeine Optionen"
+
+#: lib/admin_templates/options.php:20
+msgid "Advanced Options"
+msgstr "Fortgeschrittene Optionen"
+
+#: lib/admin_templates/options.php:21
+msgid "Theme Compatability"
+msgstr "Theme Kompatibiltät"
+
+#: lib/admin_templates/options.php:55
+msgid ""
+"Like This Plugin? You could consider a <a target=\"_blank\" href=\"https://"
+"www.paypal.com/cgi-bin/webscr?cmd=_s-"
+"xclick&hosted_button_id=7TW3H4AEX4U76\">Paypal donation</a> or leave a <a "
+"target=\"_blank\" href=\"http://wordpress.org/support/view/plugin-reviews/"
+"totally-booked\">review on wordpress.org</a>"
+msgstr ""
+"Mögen Sie dieses Plugin? erwägen Sie einen <a target=\"_blank\" href="
+"\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-"
+"xclick&hosted_button_id=7TW3H4AEX4U76\">Paypal Spende</a> oder geben einen "
+"Kommentar  <a target=\"_blank\" href=\"http://wordpress.org/support/view/"
+"plugin-reviews/totally-booked\">Kommentar auf Wordpress.org</a>"
+
+#: lib/admin_templates/pages/advanced.php:14
+#: lib/admin_templates/pages/general.php:14
+#: lib/admin_templates/pages/theme-compat.php:7
+msgid "Save Options"
+msgstr "Optionen speichern"
+
+#: lib/post_types.php:49
+msgid "Genres"
+msgstr "Genres"
+
+#: lib/post_types.php:50 lib/template_tags.php:266
+msgid "Genre"
+msgstr "Genre"
+
+#: lib/post_types.php:51
+msgid "Search Genres"
+msgstr "Genre suchen"
+
+#: lib/post_types.php:52
+msgid "Popular Genres"
+msgstr "Beliebte Genres"
+
+#: lib/post_types.php:53
+msgid "All Genres"
+msgstr "Alle Genres"
+
+#: lib/post_types.php:54
+msgid "Parent Genre"
+msgstr "Elterngenre"
+
+#: lib/post_types.php:55
+msgid "Parent Genre:"
+msgstr "Elterngenre:"
+
+#: lib/post_types.php:56
+msgid "Edit Genre"
+msgstr "Genre editieren"
+
+#: lib/post_types.php:57
+msgid "Update Genre"
+msgstr "Genre updaten"
+
+#: lib/post_types.php:58 lib/post_types.php:59
+msgid "New Genre"
+msgstr "Neues Genre"
+
+#: lib/post_types.php:60
+msgid "Genres separated by comma"
+msgstr "Genres durch Komma trennen"
+
+#: lib/post_types.php:61
+msgid "Add or remove Genres"
+msgstr "Genres hinzufügen oder entfernen"
+
+#: lib/post_types.php:62
+msgid "Choose from the most used Genres"
+msgstr "Aus den häufigsten Genres auswählen"
+
+#: lib/post_types.php:63
+msgid "Your Book Genres"
+msgstr "Ihre Buch Genres"
+
+#: lib/post_types.php:79 lib/post_types.php:80 lib/template_tags.php:265
+msgid "Series"
+msgstr "Serien"
+
+#: lib/post_types.php:81
+msgid "Search Series"
+msgstr "Serie suchen"
+
+#: lib/post_types.php:82
+msgid "Popular Series"
+msgstr "Häufige Serien"
+
+#: lib/post_types.php:83
+msgid "All Series"
+msgstr "Alle Serien"
+
+#: lib/post_types.php:84
+msgid "Parent Series"
+msgstr "Elternserie"
+
+#: lib/post_types.php:85
+msgid "Parent Series:"
+msgstr "Elternserie:"
+
+#: lib/post_types.php:86
+msgid "Edit Series"
+msgstr "Serie editieren"
+
+#: lib/post_types.php:87
+msgid "Update Series"
+msgstr "Serie updaten"
+
+#: lib/post_types.php:88 lib/post_types.php:89
+msgid "New Series"
+msgstr "Neue Serie"
+
+#: lib/post_types.php:90
+msgid "Series separated by comma"
+msgstr "Serien durch Komma trennen"
+
+#: lib/post_types.php:91
+msgid "Add or remove Series"
+msgstr "Serie hinzufügen oder entfernen"
+
+#: lib/post_types.php:92
+msgid "Choose from the most used Series"
+msgstr "Aus den häufigsten Serien auswählen"
+
+#: lib/post_types.php:93
+msgid "Your Book Series"
+msgstr "Ihre Buchserien"
+
+#: lib/post_types.php:109
+msgid "Authors"
+msgstr "Autoren"
+
+#: lib/post_types.php:110 lib/template_tags.php:264
+msgid "Author"
+msgstr "Autor"
+
+#: lib/post_types.php:111
+msgid "Search Authors"
+msgstr "Autor suchen"
+
+#: lib/post_types.php:112
+msgid "Popular Authors"
+msgstr "Beliebte Autoren"
+
+#: lib/post_types.php:113
+msgid "All Authors"
+msgstr "Alle Autoren"
+
+#: lib/post_types.php:114
+msgid "Parent Author"
+msgstr "Elternautor"
+
+#: lib/post_types.php:115
+msgid "Parent Author:"
+msgstr "Elternautor:"
+
+#: lib/post_types.php:116
+msgid "Edit Author"
+msgstr "Autor editieren"
+
+#: lib/post_types.php:117
+msgid "Update Author"
+msgstr "Autor updaten"
+
+#: lib/post_types.php:118 lib/post_types.php:119
+msgid "New Author"
+msgstr "Neuer Autor"
+
+#: lib/post_types.php:120
+msgid "Author separated by comma"
+msgstr "Autoren durch Komma getrennt"
+
+#: lib/post_types.php:121
+msgid "Add or remove Author"
+msgstr "Autor hinzufügen oder entfernen"
+
+#: lib/post_types.php:122
+msgid "Choose from the most used Authors"
+msgstr "Aus den beliebtesten Autoren auswählen"
+
+#: lib/post_types.php:123
+msgid "Your Book Authors"
+msgstr "Ihre Buchautoren"
+
+#: lib/post_types.php:152
+msgid "Books"
+msgstr "Bücher"
+
+#: lib/post_types.php:153
+msgid "Book"
+msgstr "Buch"
+
+#: lib/post_types.php:154
+msgid "Add New Book"
+msgstr "Neues Buch hinzufügen"
+
+#: lib/post_types.php:155
+msgid "View All Books"
+msgstr "Alle Bücher anschauen"
+
+#: lib/post_types.php:156 lib/post_types.php:158
+msgid "New Book"
+msgstr "Neues Buch"
+
+#: lib/post_types.php:157
+msgid "Edit Book"
+msgstr "Buch herausgeben"
+
+#: lib/post_types.php:159
+msgid "View Book"
+msgstr "Buch anschauen"
+
+#: lib/post_types.php:160
+msgid "Search Books"
+msgstr "Buch suchen"
+
+#: lib/post_types.php:161
+msgid "No Books found"
+msgstr "Kein Buch gefunden"
+
+#: lib/post_types.php:162
+msgid "No Books found in trash"
+msgstr "Kein Buch im Papierkorb gefunden"
+
+#: lib/post_types.php:163
+msgid "Parent Books"
+msgstr "Elternbücher"
+
+#. Plugin Name of the plugin/theme
+#: lib/post_types.php:164
+msgid "Totally Booked"
+msgstr "Totally Booked"
+
+#: lib/post_types.php:182
+msgid "Book updated. <a href=\"%s\">View book</a>"
+msgstr "Buch upgedated. <a href=\"%s\">Buch ansehen</a>"
+
+#: lib/post_types.php:183
+msgid "Custom field updated."
+msgstr "Eigenes Feld aktualisiert."
+
+#: lib/post_types.php:184
+msgid "Custom field deleted."
+msgstr "Eigenes Feld gelöscht."
+
+#: lib/post_types.php:185
+msgid "Book updated."
+msgstr "Buch aktualisiert."
+
+#. translators: %s: date and time of the revision
+#: lib/post_types.php:187
+msgid "Book restored to revision from %s"
+msgstr "Buch wiederhergestellt zur Revision vom %s"
+
+#: lib/post_types.php:188
+msgid "Book published. <a href=\"%s\">View book</a>"
+msgstr "Buch veröffentlicht. <a href=\"%s\">Buch ansehen</a>"
+
+#: lib/post_types.php:189
+msgid "Book saved."
+msgstr "Buch gespeichert."
+
+#: lib/post_types.php:190
+msgid "Book submitted. <a target=\"_blank\" href=\"%s\">Preview book</a>"
+msgstr "Buch eingegeben. <a target=\"_blank\" href=\"%s\">Buchvorschau</a>"
+
+#: lib/post_types.php:191
+msgid ""
+"Book scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview book</a>"
+msgstr ""
+"Buch vorgesehen für: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Buchvorschau</a>"
+
+#. translators: Publish box date format, see http:php.net/date
+#: lib/post_types.php:193
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: lib/post_types.php:194
+msgid "Book draft updated. <a target=\"_blank\" href=\"%s\">Preview book</a>"
+msgstr ""
+"Buchmanuskript aktualisiert. <a target=\"_blank\" href=\"%s\">Buchvorschau</"
+"a>"
+
+#: lib/post_types.php:208
+msgid "More Book Details"
+msgstr "Mehr Buchdetails"
+
+#: lib/post_types.php:210
+msgid "Your Book Links"
+msgstr "Ihre Buchlinks"
+
+#: lib/post_types.php:212
+msgid "Add Reader Extras"
+msgstr "Fügen Sie Extras für die Leser hinzu"
+
+#: lib/template_tags.php:23
+msgid "Archive"
+msgstr "Archiv"
+
+#: lib/template_tags.php:42
+msgid "Books Archives"
+msgstr "Bucharchiv"
+
+#: lib/template_tags.php:96
+msgid ""
+"You must use The tb_extra_reader_links tag from within a WordPress loop or "
+"pass in the appropriate post ID."
+msgstr ""
+"Sie müssen den The tb_extra_reader_links tag nutzen von innerhalb eines "
+"WordPress loop oder die passende Beitrags ID einschreiben.You must use The "
+"tb_extra_reader_links tag from within a WordPress loop or pass in the "
+"appropriate post ID."
+
+#: lib/template_tags.php:131
+msgid ""
+"You must use The tb_get_buynow_link tag from within a WordPress loop or pass "
+"in the appropriate post ID."
+msgstr ""
+"Sie müssen den The tb_get_buynow_link tag nutzen von innerhalb eines "
+"WordPress loop oder die passende Beitrags ID einschreiben."
+
+#: lib/template_tags.php:204
+msgid "ISBN: "
+msgstr "ISBN: "
+
+#: lib/template_tags.php:293
+msgid "View more books written by the author \"%s\"."
+msgstr "Weitere Bücher des Autors  \"%s\"."
+
+#: lib/template_tags.php:301
+msgid "View more books written by this author."
+msgstr "Weitere Bücher dieses Autors."
+
+#: lib/template_tags.php:316
+msgid "View more books in the series \"%s\"."
+msgstr "Weitere Bücher in dieser Reihe/Serie \"%s\"."
+
+#: lib/template_tags.php:324
+msgid "View more books in this series"
+msgstr "Weitere Bücher in dieser Reihe"
+
+#: lib/template_tags.php:339
+msgid "View more books in the genre \"%s\"."
+msgstr "Weitere Bücher in diesem Genre \"%s\"."
+
+#: lib/template_tags.php:347
+msgid "View more books in this genre"
+msgstr "Weitere Bücher in dieser Reihe"
+
+#: lib/widgets.php:16
+msgid "Totally Booked Book Widget"
+msgstr "Totally Booked Book Widget"
+
+#: lib/widgets.php:17
+msgid "Displays a single book in the sidebar."
+msgstr "Zeigen Sie ein einzelnes Buch in der Sidebar."
+
+#: lib/widgets.php:46
+msgid "The Selected Book Was Not Found"
+msgstr "Das ausgewählte Buch wurde nicht gefunden."
+
+#: lib/widgets.php:98
+msgid "You have not added any books, please add some before using this widget."
+msgstr ""
+"Sie haben keine Bücher hinzugefügt. Bitte tun Sie das bevor Sie diesen "
+"Widget nutzen."
+
+#: lib/widgets.php:104
+msgid "Title:"
+msgstr "Titel:"
+
+#: lib/widgets.php:108
+msgid "Choose The Book To Display:"
+msgstr ""
+
+#: lib/widgets.php:110
+msgid "Select A Book"
+msgstr "Wählen Sie ein Buch"
+
+#: templates/book_widget.php:28 templates/loops/archive.php:35
+#: templates/loops/gallery.php:25
+msgid "Read More"
+msgstr "Mehr lesen"
+
+#: templates/buynow_popup.php:12
+msgid "Buy Now"
+msgstr "Jetzt kaufen"
+
+#: templates/buynow_popup.php:20
+msgid "Buy This Book Online"
+msgstr "Dieses Buch über das Internet kaufen"
+
+#: templates/buynow_popup.php:42
+msgid "Find A Local Bookstore"
+msgstr "Einen Buchladen in der Nähe finden"
+
+#: templates/buynow_popup.php:49
+msgid "Find Store"
+msgstr "Geschäft finden"
+
+#: templates/loops/single_book.php:36
+msgid "About This Book"
+msgstr "Über dieses Buch"
+
+#: totally-booked.php:259
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: totally-booked.php:314
+msgid "Amazon URL"
+msgstr "Amazon URL"
+
+#: totally-booked.php:319
+msgid "Audible URL"
+msgstr "Audible URL"
+
+#: totally-booked.php:324
+msgid "Barnes And Noble URL"
+msgstr "Barnes And Noble URL"
+
+#: totally-booked.php:329
+msgid "Books A Million URL"
+msgstr "Books A Million URL"
+
+#: totally-booked.php:334
+msgid "Christianbook URL"
+msgstr "Christianbook URL"
+
+#: totally-booked.php:339
+msgid "Google Play URL"
+msgstr "Google Play URL"
+
+#: totally-booked.php:344
+msgid "Indiebound URL"
+msgstr "Indiebound URL"
+
+#: totally-booked.php:349
+msgid "Itunes URL"
+msgstr "Itunes URL"
+
+#: totally-booked.php:354
+msgid "Kobo URL"
+msgstr "Kobo URL"
+
+#: totally-booked.php:359
+msgid "Smashwords URL"
+msgstr "Smashwords URL"
+
+#: totally-booked.php:364
+msgid "Sony Reader URL"
+msgstr "Sony Reader URL"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/totally-booked/"
+msgstr "http://wordpress.org/extend/plugins/totally-booked/"
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin to help authors and book affiliates list their books quickly and "
+"easily in any WordPress website"
+msgstr ""
+"Ein Plugin um Autoren und Buch(handels)partnern (affiliates) zu helfen, ihre "
+"Bücher schnell und leicht auf einer WordPress Webseite aufzulisten."
+
+#. Author of the plugin/theme
+msgid "Ben Casey"
+msgstr "Ben Casey"

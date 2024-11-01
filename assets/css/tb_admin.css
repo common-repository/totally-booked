@@ -1,0 +1,24 @@
+/**
+ * Admin Styles For The Totally Booked Plugin.
+ */
+
+#reader_links_table{
+    width:100%;
+}
+
+#reader_links_table th{
+    text-align: left;
+}
+
+#reader_links_table td._preview{
+    padding:0 20px;
+    text-align: center!important;
+}
+
+#reader_links_table .preview{
+    float:none!important;
+}
+
+.wp-list-table th#shortcode{
+    width:30%;
+}
